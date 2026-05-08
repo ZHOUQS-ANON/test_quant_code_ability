@@ -4,17 +4,17 @@
 
 ## 项目结构
 
-- `pandas/quant_test_part1_basics.py`: 基础数据清洗、统计分析、Beta/Alpha、相关性分析练习。
-- `pandas/quant_test_part2_intermediate.py`: VaR/CVaR、等权组合、Sharpe、最小方差组合、累计收益和 Calmar Ratio 练习。
-- `pandas/quant_test_part3_advanced.py`: 自相关、滚动波动率、布林带、均线交叉回测、Fama-French 三因子回归练习。
-- `pandas/test_runner.py`: 自动评分器，按 100 分制对练习函数进行评分。
-- `pandas/quant_test_solutions.py`: 参考答案，供评分器比对使用。
+- `other_practice/quant_test_part1_basics.py`: 基础数据清洗、统计分析、Beta/Alpha、相关性分析练习。
+- `other_practice/quant_test_part2_intermediate.py`: VaR/CVaR、等权组合、Sharpe、最小方差组合、累计收益和 Calmar Ratio 练习。
+- `other_practice/quant_test_part3_advanced.py`: 自相关、滚动波动率、布林带、均线交叉回测、Fama-French 三因子回归练习。
+- `other_practice/test_runner.py`: 自动评分器，按 100 分制对练习函数进行评分。
+- `other_practice/quant_test_solutions.py`: 参考答案，供评分器比对使用。
 - `agent.md`: 给后续 agent 的项目说明和操作规则。
 
 ## 运行评分器
 
 ```bash
-cd pandas
+cd other_practice
 python test_runner.py
 ```
 

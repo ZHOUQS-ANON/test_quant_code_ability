@@ -4,12 +4,11 @@
 
 ## Project Structure
 
-- `pandas/quant_test_part1_basics.py`: Part 1，基础数据处理、统计分析、相关性分析题目。包含待完成的 TODO 函数。
-- `pandas/quant_test_part2_intermediate.py`: Part 2，VaR/CVaR、组合构建、绩效归因题目。包含待完成的 TODO 函数。
-- `pandas/quant_test_part3_advanced.py`: Part 3，时间序列特征、移动均线回测、Fama-French 回归题目。包含待完成的 TODO 函数。
-- `pandas/test_runner.py`: 自动评分器。通过导入三份题目文件中的函数，并与参考答案对比计算 100 分制成绩。
-- `pandas/quant_test_solutions.py`: 参考答案。用于评分比对，除非用户明确要求维护参考答案，否则不要修改。
-- `pandas/1.py`: 当前为空文件，修改前先确认用途。
+- `other_practice/quant_test_part1_basics.py`: Part 1，基础数据处理、统计分析、相关性分析题目。包含待完成的 TODO 函数。
+- `other_practice/quant_test_part2_intermediate.py`: Part 2，VaR/CVaR、组合构建、绩效归因题目。包含待完成的 TODO 函数。
+- `other_practice/quant_test_part3_advanced.py`: Part 3，时间序列特征、移动均线回测、Fama-French 回归题目。包含待完成的 TODO 函数。
+- `other_practice/test_runner.py`: 自动评分器。通过导入三份题目文件中的函数，并与参考答案对比计算 100 分制成绩。
+- `other_practice/quant_test_solutions.py`: 参考答案。用于评分比对，除非用户明确要求维护参考答案，否则不要修改。
 
 ## Working Rules
 
@@ -30,14 +29,14 @@
 
 ## Testing
 
-从 `pandas` 目录运行评分器：
+从 `other_practice` 目录运行评分器：
 
 ```bash
-cd pandas
+cd other_practice
 python test_runner.py
 ```
 
-评分器会输出每一题的通过情况和总分。若在仓库根目录运行，导入路径可能不正确，因此优先从 `pandas` 目录执行。
+评分器会输出每一题的通过情况和总分。若在仓库根目录运行，导入路径可能不正确，因此优先从 `other_practice` 目录执行。
 
 ## Safety Rules
 
